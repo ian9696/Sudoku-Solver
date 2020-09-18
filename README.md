@@ -35,7 +35,7 @@ $ g++ -o solver solver.cpp
 
 Run the solver.
 ```
-$ ./solver <Sudoku.in> <Sudoku.out>
+$ ./solver <Sudoku.in> <Sudoku.out> minisat_static
 ```
 The solver will read from <Sudoku.in> and auto-detect the size of the puzzle.
 
