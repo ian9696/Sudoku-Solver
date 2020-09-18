@@ -53,6 +53,11 @@ A solution is written to <Sudoku.out>, which looks like the following.
 ```
 
 ### Counting the Number of Solutions
+Install PyEDA.
+```
+$ pip3 install pyeda
+```
+
 Run the counter.
 ```
 $ python3 <Sudoku.in> <Sudoku.out>
