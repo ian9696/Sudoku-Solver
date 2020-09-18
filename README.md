@@ -24,18 +24,18 @@ Download [MiniSat_v1.14](http://minisat.se/downloads/MiniSat_v1.14.2006-Aug-29.s
 
 Generate a statically linked release version of MiniSat.
 ```
-make rs
+$ make rs
 ```
 An executable named `minisat_static` will be generated.
 
 Compile solver source code.
 ```
-g++ -o solver solver.cpp
+$ g++ -o solver solver.cpp
 ```
 
 Run the solver.
 ```
-./solver <Sudoku.in> <Sudoku.out>
+$ ./solver <Sudoku.in> <Sudoku.out>
 ```
 The solver will read from <Sudoku.in> and auto-detect the size of the puzzle.
 
