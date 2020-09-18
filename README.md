@@ -51,6 +51,7 @@ A feasible solution is written to <Sudoku.out>, which looks like the following.
  1  8  3  4  5  9  7  6  2 
  2  9  6  1  7  8  4  5  3 
 ```
+If there is no solution to the Sudoku puzzle, the solver outputs `NO`.
 
 ### Counting the Number of Solutions
 Install [PyEDA](https://pypi.org/project/pyeda/).
