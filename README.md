@@ -6,6 +6,7 @@ The solver transforms Sudoku problem into boolean formula in conjunctive normal 
 ## How to Run
 ### Solving Sudoku
 Download [MiniSat_v1.14](http://minisat.se/downloads/MiniSat_v1.14.2006-Aug-29.src.zip) from [MiniSat official website](http://minisat.se/MiniSat.html).
+
 Generate a statically linked release version of MiniSat.
 ```
 make rs
