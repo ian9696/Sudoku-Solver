@@ -18,9 +18,9 @@ Compile solver source code.
 g++ -o solver solver.cpp
 ```
 
-Create a Sudoku puzzle.
+Create a text file describing a Sudoku puzzle.
 
-For example, a text file with the following content.
+For example, a text file with the following content (0's indicate empty cells).
 ```
 3 4 0 0 0 0 0 0 0
 0 0 0 7 0 3 8 1 2
@@ -32,17 +32,14 @@ For example, a text file with the following content.
 0 0 5 0 0 1 7 4 0
 2 0 7 0 8 0 0 5 0
 ```
-0's in the Sudoku puzzle indicate empty cells.
 
 Run the solver.
 ```
 ./solver <Sudoku.in> <Sudoku.out>
 ```
-<Sudoku.in> is the Sudoku puzzle.
+The solver will read from <Sudoku.in> and auto-detect the size of the puzzle.
 
-The Solver will auto-detect the size of the puzzle and find a solution.
-
-The solution is written to <Sudoku.out>, which looks like the following.
+A solution is written to <Sudoku.out>, which looks like the following.
 ```
  3  4  1  8  9  2  6  7  5 
  6  5  9  7  4  3  8  1  2 
