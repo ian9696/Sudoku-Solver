@@ -39,7 +39,7 @@ $ ./solver <Sudoku.in> <Sudoku.out> minisat_static
 ```
 The solver will read from <Sudoku.in> and auto-detect the size of the puzzle.
 
-A solution is written to <Sudoku.out>, which looks like the following.
+A feasible solution is written to <Sudoku.out>, which looks like the following.
 ```
  4  7  2  3  1  6  5  8  9 
  8  6  9  5  2  4  1  3  7 
