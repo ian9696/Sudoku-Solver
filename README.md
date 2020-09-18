@@ -40,7 +40,9 @@ Run the solver.
 ```
 <Sudoku.in> is the Sudoku puzzle.
 
-The Solver will find a solution and write it to <Sudoku.out>, which looks like the following.
+The Solver will auto-detect the size of the puzzle and find a solution.
+
+The solution is written to <Sudoku.out>, which looks like the following.
 ```
  3  4  1  8  9  2  6  7  5 
  6  5  9  7  4  3  8  1  2 
