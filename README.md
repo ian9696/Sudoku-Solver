@@ -20,7 +20,7 @@ For example, a text file with the following content (0's indicate empty cells).
 ```
 
 ### Solving Sudoku
-Download [MiniSat_v1.14](http://minisat.se/downloads/MiniSat_v1.14.2006-Aug-29.src.zip) from [MiniSat official website](http://minisat.se/MiniSat.html).
+Download [MiniSat_v1.14](http://minisat.se/downloads/MiniSat_v1.14.2006-Aug-29.src.zip) from [MiniSat official website](http://minisat.se/Main.html).
 
 Generate a statically linked release version of MiniSat.
 ```
