@@ -18,7 +18,9 @@ Compile solver source code.
 g++ -o solver solver.cpp
 ```
 
-Create a Sudoku puzzle. For example, a text file with the following content.
+Create a Sudoku puzzle.
+
+For example, a text file with the following content.
 ```
 3 4 0 0 0 0 0 0 0
 0 0 0 7 0 3 8 1 2
@@ -37,6 +39,7 @@ Run the solver.
 ./solver <Sudoku.in> <Sudoku.out>
 ```
 <Sudoku.in> is the Sudoku puzzle.
+
 The Solver will find a solution and write it to <Sudoku.out>, which looks like the following.
 ```
  3  4  1  8  9  2  6  7  5 
