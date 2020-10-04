@@ -61,7 +61,7 @@ $ pip3 install pyeda
 
 Run the counter.
 ```
-$ python3 code.py <Sudoku.in> <Sudoku.out>
+$ python3 counter.py <Sudoku.in> <Sudoku.out>
 ```
 The counter will read from <Sudoku.in> and auto-detect the size of the puzzle.
 
