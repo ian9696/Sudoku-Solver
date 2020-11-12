@@ -1,7 +1,7 @@
-## Sudoku-Solver
-Sudoku solvers for solving Sudoku and counting the number of solutions, implemented using C++, MiniSat, Python, and PyEDA.
+## Sudoku Solver
+Sudoku solvers for solving Sudoku and counting the number of solutions, implemented using C++, [MiniSat](http://minisat.se/Main.html), Python, and [PyEDA](https://pypi.org/project/pyeda/).
 
-The solver transforms Sudoku problem into boolean formula in conjunctive normal form, and use Minisat to find a feasible solution and PyEDA to find the total number of solutions.
+The solver transforms Sudoku problem into boolean formula in conjunctive normal form (CNF), and use Minisat to find a feasible solution and PyEDA to find the total number of solutions.
 
 ## How to Run
 Create a text file describing a Sudoku puzzle.
@@ -20,7 +20,7 @@ For example, a text file with the following content (0's indicate empty cells).
 ```
 
 ### Solving Sudoku
-Download [MiniSat_v1.14](http://minisat.se/downloads/MiniSat_v1.14.2006-Aug-29.src.zip) from [MiniSat official website](http://minisat.se/Main.html).
+Download [MiniSat_v1.14](http://minisat.se/downloads/MiniSat_v1.14.2006-Aug-29.src.zip) from [MiniSat official website](http://minisat.se/MiniSat.html).
 
 Generate a statically linked release version of MiniSat.
 ```
