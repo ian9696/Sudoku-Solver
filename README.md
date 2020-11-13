@@ -6,7 +6,7 @@ The solver transforms Sudoku problem into boolean formula in conjunctive normal 
 ## How to Run
 Create a text file describing a Sudoku puzzle.
 
-For example, a text file with the following content (0's indicate empty cells).
+For example, a text file with the following content (0's indicate empty cells):
 ```
 0 0 0 3 1 6 5 0 0
 8 0 0 5 0 0 1 0 0
@@ -39,7 +39,7 @@ $ ./solver <Sudoku.in> <Sudoku.out> minisat_static
 ```
 The solver will read from `<Sudoku.in>` and auto-detect the size of the puzzle.
 
-A feasible solution is written to `<Sudoku.out>`, which looks like the following.
+A feasible solution is written to `<Sudoku.out>`, which looks like the following:
 ```
  4  7  2  3  1  6  5  8  9 
  8  6  9  5  2  4  1  3  7 
