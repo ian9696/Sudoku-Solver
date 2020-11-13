@@ -65,7 +65,7 @@ $ python3 counter.py <Sudoku.in> <Sudoku.out>
 ```
 The counter will read from `<Sudoku.in>` and auto-detect the size of the puzzle.
 
-The number of feasible solutions is written to `<Sudoku.out>`, which looks like the following.
+The number of feasible solutions is written to `<Sudoku.out>`, which looks like the following:
 ```
 125
 ```
